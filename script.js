@@ -12,10 +12,10 @@ function compute()
         alert("Enter a positive number")
         principalEl.focus()
     }else{
-        var texts = `<br>If you deposit ${principal},<br>
-        at an interest rate of ${rate}%.<br>
-        You will receive an amount of ${interest},<br>
-        in the year ${year}<br>`;
+        var texts = `<br>If you deposit <span>${principal}</span>,<br>
+        at an interest rate of <span>${rate}%</span>.<br>
+        You will receive an amount of <span>${interest}</span>,<br>
+        in the year <span>${year}</span><br>`;
         result.innerHTML = texts
     }
 
