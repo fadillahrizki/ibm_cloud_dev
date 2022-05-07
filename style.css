@@ -3,11 +3,11 @@ h1{color:grey;font-family:verdana}
 .maindiv {
     background-color:white;
     color:black;
-    width:300px;
+    width:500px;
     padding:20px;
     border-radius:25px;
     margin:auto;
 }
-#result span{
-    color:yellow;
+.maindiv .box{
+    padding:20px;
 }
